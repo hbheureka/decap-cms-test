@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hugotailwind.bonsink.eu/'
 languageCode = 'nl-nl'
 title = 'Mijn nieuwe Hugo site'
 author = "Han Bonsink"
