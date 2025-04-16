@@ -7,7 +7,7 @@ tags:
   - test
   - demo
   - probeersel
-draft: true
+draft: false
 ---
 Hier is wat teks om uit te proberen.
 
