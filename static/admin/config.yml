@@ -4,7 +4,7 @@ publish_mode: editorial_workflow
 show_preview_links: true
 backend:
   name: github
-  repo: uhbheureka/hugotailwind
+  repo: hbheureka/decap-cms-test
   branch: main
   base_url: https://hugotailwind.bonsink.eu
   auth_endpoint: /api/auth
