@@ -1,0 +1,31 @@
+site_url: https://hugotailwind.bonsink.eu
+display_url: https://hugotailwind.bonsink.eu
+publish_mode: editorial_workflow
+show_preview_links: true
+backend:
+  name: github
+  repo: uhbheureka/hugotailwind
+  branch: main
+  base_url: https://hugotailwind.bonsink.eu
+  auth_endpoint: /api/auth
+  squash_merges: true
+  preview_context: 'cloudflare preview deploy'
+media_folder: "static/uploads"
+public_folder: "/uploads"
+collections:
+  - name: posts
+    label: Posts
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    preview_path: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { name: "author", label: "Author", widget: "string" }
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "description", label: "Description", widget: "string" }
+      - { name: "tags", label: "Tags", widget: "list" }
+      - { name: "draft", label: "Draft", widget: "boolean" }
+      - { name: "body", label: "Body", widget: "markdown" }
